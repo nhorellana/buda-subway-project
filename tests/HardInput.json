@@ -1,0 +1,74 @@
+{
+    "A": {
+        "color": "mix",
+        "vecinos": ["B", "N"]
+    },
+    "B": {
+        "color": "mix",
+        "vecinos": ["C", "G"]
+    },
+    "C": {
+        "color": "mix",
+        "vecinos": ["D", "B"]
+    },
+    "D": {
+        "color": "mix",
+        "vecinos": ["C","E"]
+    },
+    "E": {
+        "color": "mix",
+        "vecinos": ["D","R","K","F"]
+    },
+    "F": {
+        "color": "mix",
+        "vecinos": ["E"]
+    },
+    "G": {
+        "color": "mix",
+        "vecinos": ["B","H"]
+    },
+    "H": {
+        "color": "green",
+        "vecinos": ["G","I"]
+    },
+    "I": {
+        "color": "mix",
+        "vecinos": ["H","J","L"]
+    },
+    "J": {
+        "color": "green",
+        "vecinos": ["I","K"]
+    },
+    "K": {
+        "color": "red",
+        "vecinos": ["J", "E"]
+    },
+    "L": {
+        "color": "red",
+        "vecinos": ["I", "M"]
+    },
+    "M": {
+        "color": "mix",
+        "vecinos": ["L"]
+    },
+    "N": {
+        "color": "red",
+        "vecinos": ["A","O"]
+    },
+    "O": {
+        "color": "green",
+        "vecinos": ["N","P"]
+    },
+    "P": {
+        "color": "red",
+        "vecinos": ["O","Q"]
+    },
+    "Q": {
+        "color": "green",
+        "vecinos": ["P","R"]
+    },
+    "R": {
+        "color": "red",
+        "vecinos": ["Q","E"]
+    }
+}

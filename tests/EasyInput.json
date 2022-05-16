@@ -1,0 +1,38 @@
+{
+    "A": {
+        "color": "mix",
+        "vecinos": ["B"]
+    },
+    "B": {
+        "color": "mix",
+        "vecinos": ["A", "C"]
+    },
+    "C": {
+        "color": "mix",
+        "vecinos": ["B", "D", "G"]
+    },
+    "D": {
+        "color": "mix",
+        "vecinos": ["C","E"]
+    },
+    "E": {
+        "color": "mix",
+        "vecinos": ["D","F"]
+    },
+    "F": {
+        "color": "mix",
+        "vecinos": ["E","I"]
+    },
+    "G": {
+        "color": "green",
+        "vecinos": ["C","H"]
+    },
+    "H": {
+        "color": "red",
+        "vecinos": ["G","I"]
+    },
+    "I": {
+        "color": "green",
+        "vecinos": ["H","F"]
+    }
+}

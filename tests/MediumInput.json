@@ -1,0 +1,54 @@
+{
+    "A": {
+        "color": "mix",
+        "vecinos": ["B"]
+    },
+    "B": {
+        "color": "mix",
+        "vecinos": ["A", "C","G"]
+    },
+    "C": {
+        "color": "green",
+        "vecinos": ["B", "D"]
+    },
+    "D": {
+        "color": "red",
+        "vecinos": ["C","E"]
+    },
+    "E": {
+        "color": "mix",
+        "vecinos": ["D","K","F"]
+    },
+    "F": {
+        "color": "mix",
+        "vecinos": ["E"]
+    },
+    "G": {
+        "color": "red",
+        "vecinos": ["B","H"]
+    },
+    "H": {
+        "color": "green",
+        "vecinos": ["G","I"]
+    },
+    "I": {
+        "color": "mix",
+        "vecinos": ["H","J","L"]
+    },
+    "J": {
+        "color": "green",
+        "vecinos": ["I","K"]
+    },
+    "K": {
+        "color": "red",
+        "vecinos": ["J", "E"]
+    },
+    "L": {
+        "color": "red",
+        "vecinos": ["I", "M"]
+    },
+    "M": {
+        "color": "mix",
+        "vecinos": ["L"]
+    }
+}
