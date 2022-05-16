@@ -1,8 +1,3 @@
-# Test express line, test normal line
-
-# assert equal (verdes no tienen conexiones)
-# normal line connections == neighbors de cada nodo
-
 import unittest
 
 from functions import express_line, non_express
