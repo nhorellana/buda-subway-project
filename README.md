@@ -54,7 +54,7 @@ python3 main.py tests/EasyInput.json A C red
 
 ------
 
-[A, B, C]
+A -> B -> C
 
 ```
 ## Test

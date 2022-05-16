@@ -68,4 +68,11 @@ class ShortestPath:
         if len(route) == 1:
             print("Imposible, estación de inicio o término no calza con el color de tren seleccionado")
             sys.exit()
-        print(route)
+        shortest_path = ''
+        for node in route:
+            if node.name == self.end.name:
+                shortest_path += node.name
+            else:
+                shortest_path += node.name
+                shortest_path += '->'
+        print(shortest_path)
