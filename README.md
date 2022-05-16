@@ -59,7 +59,7 @@ A -> B -> C
 ```
 ## Test
 
-Para correr los inputs usamos `test_functions.py`
+Para correr los tests usamos `test_functions.py`
 
 
 ```python3
